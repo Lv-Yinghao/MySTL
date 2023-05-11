@@ -109,7 +109,6 @@ struct pair
   pair(const pair& rhs) = default;
   pair(pair&& rhs) = default;
 
-  // implicit constructiable for other type
   template <class Other1, class Other2,
     typename std::enable_if<
     std::is_constructible<Ty1, Other1>::value &&

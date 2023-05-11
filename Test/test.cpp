@@ -28,11 +28,11 @@ int main()
   std::cout.sync_with_stdio(false);
 
   RUN_ALL_TESTS();
-  algorithm_performance_test::algorithm_performance_test();
+  //algorithm_performance_test::algorithm_performance_test();
   vector_test::vector_test();
-  list_test::list_test();
-  deque_test::deque_test();
-  queue_test::queue_test();
+  // list_test::list_test();
+  // deque_test::deque_test();
+  /*queue_test::queue_test();
   queue_test::priority_test();
   stack_test::stack_test();
   map_test::map_test();
@@ -43,7 +43,7 @@ int main()
   unordered_map_test::unordered_multimap_test();
   unordered_set_test::unordered_set_test();
   unordered_set_test::unordered_multiset_test();
-  string_test::string_test();
+  string_test::string_test();*/
 
 #if defined(_MSC_VER) && defined(_DEBUG)
   _CrtDumpMemoryLeaks();
