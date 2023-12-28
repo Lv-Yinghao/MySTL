@@ -12,8 +12,8 @@
 #include <ctime>
 
 #include "algobase.h"
-#include "memory.h"
 #include "heap_algo.h"
+#include "memory.h"
 #include "functional.h"
 
 namespace mystl
