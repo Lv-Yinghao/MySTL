@@ -14,7 +14,7 @@ MyTinySTL
     2. 构建运行
 
 ```bash
-$ git clone git@github.com:Alinshans/MyTinySTL.git
+$ git clone https://github.com/Lv-Yinghao/MySTL.git
 $ cd MyTinySTL
 ```
 
